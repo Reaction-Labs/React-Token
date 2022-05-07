@@ -8,8 +8,8 @@ import "./interface/IReactToken.sol";
 
 contract ReactToken is ERC20, Ownable, IReactToken {
     /** @dev If an address is authorized to mint tokens.
-    Token minting authorization is granted by the token contract owner
-    (i.e., the API3 DAO). */
+        Token minting authorization is granted by the token contract owner
+    */
     mapping(address => bool) private isMinter;
     /** @dev If an address is authorized to burn tokens.
     Token burning authorization is granted by the address itself, i.e.,
