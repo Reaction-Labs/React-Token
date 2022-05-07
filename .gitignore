@@ -1,0 +1,6 @@
+node_modules
+truffle-config.js
+Migrations.sol
+migrations
+build
+.env
